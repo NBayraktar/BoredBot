@@ -1,4 +1,47 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
+  background: #304352; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #d7d2cc,
+    #304352
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #d7d2cc,
+    #304352
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #982c2c;
+}
+
+p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 2em;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  border: 0.5px solid #304352;
+  outline: none;
+  background-color: #982c2c;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(152, 44, 44, 0.5);
 }
