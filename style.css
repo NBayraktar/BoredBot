@@ -32,16 +32,40 @@ p {
 }
 
 button {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  font-size: 1.2rem;
-  border: 0.5px solid #304352;
+  font-size: 1.7rem;
+  /* border: 0.2px solid #304352; */
+  border: none;
   outline: none;
-  background-color: #982c2c;
+  background-color: #196e46;
+  box-shadow: 1px 1px 20px #333;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(152, 44, 44, 0.5);
+  background-color: rgb(25, 110, 70, 0.7);
+  transition: 0.2s ease-in-out;
+}
+
+.fun {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 1em;
+  color: #c4c4c4;
 }
